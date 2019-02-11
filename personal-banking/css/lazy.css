@@ -1,0 +1,35 @@
+.grid-block img {
+	-moz-transition: all .8s ease-in;
+	-webkit-transition: all .8s ease-in;
+	-ms-transition: all .8s ease-in;
+	-o-transition: all .8s ease-in;
+	transition: all .8s ease-in
+}
+
+.grid-block img.loaded {
+	webkit-animation-delay: .8s;
+	animation-delay: .8s;
+	-moz-transition-delay: .8s;
+	-o-transition-delay: .8s;
+	-ms-transition-delay: .8s;
+	-webkit-transition-delay: .8s;
+	transition-delay: .8s;
+	-webkit-filter: blur(0);
+	-moz-filter: blur(0);
+	-ms-filter: blur(0);
+	-o-filter: blur(0);
+	filter: blur(0)
+}
+
+@media(min-width:768px) {
+	.a-login-banner {
+		min-height: 480px
+	}
+}
+
+@media(min-width:0px) {
+	.a-login-banner {
+		min-height: 300px
+	}
+
+}
